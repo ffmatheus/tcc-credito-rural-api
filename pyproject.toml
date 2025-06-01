@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "car-insurance-premium-simulator"
+version = "0.1.0"
+description = "A FastAPI service for calculating car insurance premiums"
+authors = ["Matheus Ferreira Fernandes <matheusbfrfg@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "car_insurance_premium_simulator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
