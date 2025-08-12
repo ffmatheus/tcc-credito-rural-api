@@ -1,5 +1,4 @@
 # Aplicação de Tokenização de Safras
-=====================================
 
 ## Resumo
 -----------
