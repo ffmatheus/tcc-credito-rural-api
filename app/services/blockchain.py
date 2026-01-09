@@ -158,7 +158,8 @@ class BlockchainService:
             return {
                 "success": True,
                 "transaction_hash": tx_hash.hex(),
-                "gas_used": receipt.gasUsed
+                "gas_used": receipt.gasUsed,
+                "token_id": transfer_data.token_id
             }
             
         except Exception as e:
